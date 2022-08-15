@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./groceryshopcss.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <title>Healthy Food</title>
+  </head>
+  <body>
+      <!-- Start Header -->
+      <header>
+          <div class="navBar">
+              <div class="navBar__logo">
+                  <a href="#"><b> ☘️  GREEN STORE</b></a>
+              </div>
+              <div class="navBar_content">
+                  <ul class="navBar_content__list">
+                      <li><a href="#home"><b>Home</b></a></li>
+                      <li><a href=#category><b>Category</b></a></li>
+                      <li><a href="#card"><b>Product</b></a></li>
+                      <li><a href="#about"><b>About</b></a></li>
+                      <li><a href="#service"><b>Service</b></a></li>
+                      <li><a href="#review"><b>Review</b></a></li>
+                      <li><a href="#order"><b>Order</b></a></li>
+                  </ul>
+              </div>
+              <div class="bag_search">
+                  <ul type="none">
+                      <li><i class="fas fa-shopping-bag"></i></li>
+                      <li><i class="fas fa-search"></i></li>
+                  </ul>
+              </div>
+          </div>
+      </header>
+      <!-- End Header -->
+      <hr>
+      <!-- Start Main -->
+      <main>
+          <section id="home">
+              <div class="home__div">
+                  <h1>Healthy Food,Healthy Life !</h1>
+                  <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere cum
+                      dolor ullam hic quaerat culpa necessitatibus ab laudantium id fuga
+                      commodi quas obcaecati, et dolores nisi eius at distinctio quidem
+                      voluptatum corporis ipsam. Tenetur nemo alias ex quod temporibus
+                      dolor ut, sequi, eveniet odit maxime delectus perferendis autem.
+                  </p>
+                  <div class="home__button">
+                      <a href="#">Discover More</a>
+                  </div>
+              </div>
+          </section>
+          <hr>
+          <!-- CATEGORY -->
+          <section class="category" id="category">
+              <h1>Shop By Category</h1>
+              <div class="box-container">
+                  <div class="box">
+                      <h3>Vegetables</h3>
+                      <h4>Upto 50% OFF</h4>
+                      <img src="./images/category-1.png" alt="">
+                      <button><a href="#">Shop Now</a></button>
+                  </div>
+                  <div class="box">
+                      <h3>Juice</h3>
+                      <h4>Upto 44% OFF</h4>
+                      <img src="./images/category-2.png" alt="">
+                      <button><a href="#">Shop Now</a></button>
+                  </div>
+                  <div class="box">
+                      <h3>Meat</h3>
+                      <h4>Upto 35% OFF</h4>
+                      <img src="./images/category-3.png" alt="">
+                      <button><a href="#">Shop Now</a></button>
+                  </div>
+                  <div class="box">
+                      <h3>Fruits</h3>
+                      <h4>Upto 12% OFF</h4>
+                      <img src="./images/category-4.png" alt="">
+                      <button><a href="#">Shop Now</a></button>
+                 </div>
+              </div>
+          </section>
+          <!-- FEATURED PRODUCT -->
+          <section id="card">
+              <h1>Featured Products</h1>
+              <div class="card__div">
+                  <div class="card_div__first">
+                      <div class="card__first">
+                          <figure>
+                              <img src="./images/img1.jpg" alt="Pomidor"/>
+                          </figure>
+                          <h6>Organic Tomate</h6>
+                          <div class="card__star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <div class="card__value">
+                             <del>$15.10</del>
+                             <p>$12.40</p>
+                         </div>
+                         <div class="card__icons">
+                             <i class="fas fa-shopping-cart"></i>
+                             <i class="fas fa-heart"></i>
+                             <i class="fas fa-share"></i>
+                             <i class="fas fa-eye"></i>
+                         </div>
+                      </div>
+                      <div class="card__first">
+                          <figure>
+                              <img src="./images/img2.jpg" alt="Banana" />
+                          </figure>
+                          <h6>Organic Banana</h6>
+                          <div class="card__star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="card__value">
+                              <del>$13.60</del>
+                              <p>$10.40</p>
+                          </div>
+                          <div class="card__icons">
+                              <i class="fas fa-shopping-cart"></i>
+                              <i class="fas fa-heart"></i>
+                              <i class="fas fa-share"></i>
+                              <i class="fas fa-eye"></i>
+                          </div>
+                      </div>
+                      <div class="card__first">
+                          <figure>
+                              <img src="./images/img3.jpg" alt="Grapes" />
+                          </figure>
+                          <h6>Organic Grapes</h6>
+                          <div class="card__star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="card__value">
+                              <del>$9.10</del>
+                              <p>$5.80</p>
+                          </div>
+                          <div class="card__icons">
+                              <i class="fas fa-shopping-cart"></i>
+                              <i class="fas fa-heart"></i>
+                              <i class="fas fa-share"></i>
+                              <i class="fas fa-eye"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card_div__second">
+                      <div class="card__first">
+                          <figure>
+                              <img src="./images/img4.jpg" alt="Lemon" />
+                          </figure>
+                          <h6>Organic Lemon</h6>
+                          <div class="card__star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="card__value">
+                              <del>$18.10</del>
+                              <p>$11.40</p>
+                          </div>
+                          <div class="card__icons">
+                              <i class="fas fa-shopping-cart"></i>
+                              <i class="fas fa-heart"></i>
+                              <i class="fas fa-share"></i>
+                              <i class="fas fa-eye"></i>
+                         </div>
+                     </div>
+                     <div class="card__first">
+                         <figure>
+                             <img src="./images/img5.jpg" alt="Cabbage" />
+                         </figure>
+                         <h6>Organic Cabbage</h6>
+                         <div class="card__star">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <div class="card__value">
+                             <del>$10.90</del>
+                             <p>$8.10</p>
+                         </div>
+                         <div class="card__icons">
+                             <i class="fas fa-shopping-cart"></i>
+                             <i class="fas fa-heart"></i>
+                             <i class="fas fa-share"></i>
+                             <i class="fas fa-eye"></i>
+                         </div>
+                      </div>
+                      <div class="card__first">
+                          <figure>
+                              <img src="./images/product-5.png" alt="Potato" />
+                          </figure>
+                          <h6>Organic Plum</h6>
+                          <div class="card__star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <div class="card__value">
+                              <del>$7.50</del>
+                              <p>$5.30</p>
+                          </div>
+                          <div class="card__icons">
+                              <i class="fas fa-shopping-cart"></i>
+                              <i class="fas fa-heart"></i>
+                              <i class="fas fa-share"></i>
+                              <i class="fas fa-eye"></i>
+                          </div>
+                      </div>
+                 </div>
+             </div>
+          </section>
+          <br>
+          <hr>
+          <!-- ABOUT -->
+          <section id="about">
+              <h2>About Us</h2>
+              <div class="aboutAs">
+                  <div class="about__image">
+                      <figure>
+                          <img src="https://www.wwps.org/images/2019/webfruitsfunds.jpg" alt="" />
+                      </figure>
+                  </div>
+                  <div class="about__content">
+                      <h3>Why Choose Us?</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                          et totam fuga reprehenderit magnam maiores odit cumque sit, nisi
+                          expedita repellendus quos sunt assumenda odio laboriosam
+                          exercitationem eius beatae repudiandae facilis libero officia
+                          aspernatur doloribus, corporis ad! Possimus, aut quidem, saepe
+                          incidunt quod doloribus aliquam ut labore quam excepturi illum.
+                      </p>
+                      <div class="about__button">
+                          <a href="#">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <hr>
+          <!-- SERVICE -->
+          <section id="service">
+              <h2>Our Services</h2>
+              <div class="service">
+                  <div class="service__first">
+                      <div class="service__card">
+                          <i class="fas fa-apple-alt"></i>
+                          <h6>Organic Food</h6>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                              ipsam nemo voluptates excepturi dicta omnis odit. Similique
+                              beatae libero fugit rem nisi culpa alias odit est eos. Magnam,
+                              tenetur officiis.
+                          </p>
+                      </div>
+                      <div class="service__card">
+                          <i class="fas fa-award"></i>
+                          <h6>High Quality</h6>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                              ipsam nemo voluptates excepturi dicta omnis odit. Similique
+                              beatae libero fugit rem nisi culpa alias odit est eos. Magnam,
+                              tenetur officiis.
+                          </p>
+                      </div>
+                      <div class="service__card">
+                          <i class="fas fa-shipping-fast"></i>
+                          <h6>Fast Delivery</h6>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                              ipsam nemo voluptates excepturi dicta omnis odit. Similique
+                              beatae libero fugit rem nisi culpa alias odit est eos. Magnam,
+                              tenetur officiis.
+                          </p>
+                      </div>
+                 </div>
+                 <div class="service__second">
+                     <div class="service__card">
+                         <i class="fas fa-undo"></i>
+                         <h6>Easy Returns</h6>
+                         <p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                             ipsam nemo voluptates excepturi dicta omnis odit. Similique
+                             beatae libero fugit rem nisi culpa alias odit est eos. Magnam,
+                             tenetur officiis.
+                         </p>
+                     </div>
+                     <div class="service__card">
+                         <i class="fas fa-truck"></i>
+                         <h6>Free Delviery</h6>
+                         <p>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                             ipsam nemo voluptates excepturi dicta omnis odit. Similique
+                             beatae libero fugit rem nisi culpa alias odit est eos. Magnam,
+                             tenetur officiis.
+                         </p>
+                      </div>
+                      <div class="service__card">
+                          <i class="fas fa-headset"></i>
+                          <h6>24 X 7 Support</h6>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                              ipsam nemo voluptates excepturi dicta omnis odit. Similique
+                              beatae libero fugit rem nisi culpa alias odit est eos. Magnam,
+                              tenetur officiis.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <hr>
+          <!-- REVIEW SECTION -->
+          <section id="review">
+              <h2>People's Review</h2>
+              <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="review__card">
+                              <div class="review__header">
+                                  <div class="review_card__img">
+                                      <img src="./images/pic1.png" alt="" />
+                                  </div>
+                                  <div class="review_card__content">
+                                     <h3>John Deo</h3>
+                                 </div>
+                              </div>
+                              <div class="review_card__paraqraf">
+                                  <p>
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                      Animi illum iusto porro, aspernatur odio maiores laudantium
+                                      eveniet quisquam consequuntur maxime mollitia ipsum ullam
+                                      eaque tempora laborum nostrum? Totam, neque similique.
+                                 </p>
+                             </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="review__card">
+                              <div class="review__header">
+                                  <div class="review_card__img">
+                                      <img src="./images/pic2.png" alt="" />
+                                  </div>
+                                  <div class="review_card__content">
+                                      <h3>John Deo</h3>
+                                  </div>
+                              </div>
+                              <div class="review_card__paraqraf">
+                                  <p>
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                      Animi illum iusto porro, aspernatur odio maiores laudantium
+                                      eveniet quisquam consequuntur maxime mollitia ipsum ullam
+                                      eaque tempora laborum nostrum? Totam, neque similique.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="review__card">
+                              <div class="review__header">
+                                  <div class="review_card__img">
+                                      <img src="./images/pic3.png" alt="" />
+                                  </div>
+                                  <div class="review_card__content">
+                                      <h3>John Deo</h3>
+                                  </div>
+                              </div>
+                              <div class="review_card__paraqraf">
+                                  <p>
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                      Animi illum iusto porro, aspernatur odio maiores laudantium
+                                      eveniet quisquam consequuntur maxime mollitia ipsum ullam
+                                      eaque tempora laborum nostrum? Totam, neque similique.
+                                  </p>
+                              </div>
+                          </div>
+                       </div>
+                       <div class="swiper-slide">
+                           <div class="review__card">
+                               <div class="review__header">
+                                   <div class="review_card__img">
+                                       <img src="./images/pic4.png" alt="" />
+                                   </div>
+                                   <div class="review_card__content">
+                                       <h3>John Deo</h3>
+                                   </div>
+                               </div>
+                               <div class="review_card__paraqraf">
+                                   <p>
+                                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                       Animi illum iusto porro, aspernatur odio maiores laudantium
+                                       eveniet quisquam consequuntur maxime mollitia ipsum ullam
+                                       eaque tempora laborum nostrum? Totam, neque similique.
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+                   <div class="swiper-pagination"></div>
+               </div>
+          </section>
+          <hr>
+          <!-- ONLINE ORDER -->
+          <section id="order">
+              <h2>Make An Order</h2>
+              <div class="onlineorder">
+                  <div class="onlineorder__form">
+                      <form class="order_inf">
+                          <h3>Full Name</h3>
+                          <input type="text" placeholder="Enter Your Name"><br><br>
+                          <h3>Phone Number</h3>
+                          <input type="number" placeholder="Enter Your Number"><br><br>
+                          <h3>Address</h3>
+                          <input type="text" placeholder="Enter Your Address"><br><br>
+                          <h3>Orders</h3>
+                          <textarea cols="52" rows="13" placeholder="Enter Your Orders"></textarea><br>
+                          <button><a href="#">Send</a></button> 
+                      </form>
+                  </div>
+              </div>
+          </section>
+      </main>
+      <!-- End Main -->
+      <hr>
+      <!-- Start Footer -->   
+      <footer>
+          <div class="footer_container">
+              <div class="name-logo">
+                  <h2> ☘️ GREEN STORE</h2><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>Animi illum iusto porro, aspernatur odio maiores laudantium.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>Animi illum iusto porro, aspernatur odio maiores laudantium.</p><br>
+                  <div class="suggest">
+                      <h3>Your Suggestions</h3>
+                      <textarea rows="5" cols="50" placeholder="Write your suggestions..."></textarea><br>
+                      <button><a href="#">Send</a></button>
+                  </div>
+              </div>
+              <div class="contact_details">
+                  <h2>Contact Details</h2><br>
+                  <div class="phone">
+                      <p><i class="fas fa-phone"></i> +994-XX-XXX-XX-XX</p><br>
+                  </div>
+                  <div class="email">
+                      <p><i class="fas fa-envelope"></i> camalmikayilov1@gmail.com</p><br>
+                  </div>
+                  <div class="address">
+                      <p><a href="https://www.google.com/maps/place/Ya%C5%9F%C4%B1l+Bazar/@40.385301,49.8520826,17z/data=!3m1!4b1!4m5!3m4!1s0x40307d0dce8844ef:0x86c6fd9527bc4d18!8m2!3d40.3853012!4d49.854271"><i class="fas fa-map-marker-alt"></a></i> Khatai Ave, Baku, Azerbaijan</p><br>
+                  </div>
+              </div>
+              <div class="follow">
+                  <h2>Follow Us</h2><br>
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" style="color:rgb(47, 47, 216);"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fab fa-instagram-square" style="color: rgb(221, 47, 204);"></i></a>
+                  <a href="https://www.youtube.com/"><i class="fab fa-youtube" style="color: red;"></i></a>
+                  <a href="https://www.twitter.com/"><i class="fab fa-twitter-square" style="color: rgb(6, 141, 209);"></i></a>
+              </div>
+          </div>
+        </footer>
+      <hr>
+      <div class="end">
+          <h3>Created By Mikayilov Camal.</h3>
+          <h3><i class="far fa-copyright"></i> All rights reserved !</h3>
+      </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="./groceryshopjs.js"></script>
+   </body>
+</html>
